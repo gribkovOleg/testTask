@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>DomaitONE</title>
+</head>
+
+<body>
+    <!-- 1 Task -->
+    <input type="text" name="name" id="name_input" value="Xxxx">
+
+    <!-- 2 Task -->
+    <div class="container_task-2">
+        <form>
+            <div class="block_size">
+                <p>Size:</p>
+                <input type="radio" name="size" id="small" class="size" value="S">S</input>
+                <input type="radio" name="size" id="medium" class="size" value="M">M</input>
+                <input type="radio" name="size" id="large" class="size" value="L">L</input>
+            </div>
+            <div class="block_color">
+                <p>Color:</p>
+                <input type="checkbox" name="color" class="color" value="1" />1</input>
+                <input type="checkbox" name="color" class="color" value="2" />2</input>
+                <input type="checkbox" name="color" class="color" value="3" />3</input>
+                <input type="checkbox" name="color" class="color" value="4" />4</input>
+                <input type="checkbox" name="color" class="color" value="5" />5</input>
+            </div>
+            <div class="block_manufacturer">
+                <p>Manufacturer:</p>
+                <select multiple size="3" name="manufacturer" class="manufacturer">
+                    <option value="aaa">aaa</option>
+                    <option value="b&c">b&c</option>
+                    <option value="ddd">ddd</option>
+                    <option value="eee">eee</option>
+                </select>
+            </div>
+            <div class="block_sale">
+                <p class="sale"><input type="checkbox" value="-1" />Sale %</p>
+            </div>
+        </form>
+    </div>
+    <!-- Task 4-5 -->
+    <iframe onload="" name="iframe" id="iframe" src="./Task4/domain2.html" frameborder="1" width="200px"
+        height="200px"></iframe>
+    <script src="index.js"></script>
+</body>
+
+</html>
