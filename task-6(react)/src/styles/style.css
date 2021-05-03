@@ -1,0 +1,21 @@
+.header {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+    margin-left: 15px;
+}
+
+.container_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
